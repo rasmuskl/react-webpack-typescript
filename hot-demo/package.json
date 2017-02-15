@@ -1,0 +1,6 @@
+{
+    "name": "hot-demo",
+    "scripts": {
+        "hot": "webpack-dev-server app.js --inline --hot"
+    }
+}
