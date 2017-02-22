@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "jsx": "react"
+        "jsx": "react",
+        "outDir": "out"
     }
 }

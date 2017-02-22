@@ -1,8 +1,9 @@
+
 class Test extends React.Component<any, any> {
     render() {
         return (
             <div>
-                <h1>Hello CNUG!</h1>
+                <h1>Hello CNUG</h1>
             </div>
         );
     }
