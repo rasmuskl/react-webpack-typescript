@@ -18,7 +18,6 @@ namespace WebApplication1
         private static void ConfigureMvcRoutes()
         {
             RouteCollection routes = RouteTable.Routes;
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
                 name: "Default",

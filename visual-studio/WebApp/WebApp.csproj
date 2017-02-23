@@ -106,7 +106,6 @@
   <ItemGroup>
     <Content Include="app\index.html" />
     <Content Include="Global.asax" />
-    <Content Include="server.js" />
     <Content Include="Web.config" />
     <Content Include="webpack.config.js" />
   </ItemGroup>
@@ -123,12 +122,6 @@
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
     <Content Include="app\app.less" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

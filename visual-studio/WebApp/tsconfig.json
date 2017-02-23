@@ -3,11 +3,9 @@
     "baseUrl": ".",
     "jsx": "react",
     "target": "es5",
-    "lib": ["es6", "dom"],
     "module": "commonjs",
-    "suppressImplicitAnyIndexErrors": true,
     "sourceMap": true,
-    "experimentalDecorators": true
+    "noEmit": true
   },
   "include": [
     "app/**/*"
