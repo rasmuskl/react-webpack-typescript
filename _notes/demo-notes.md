@@ -1,7 +1,4 @@
 
-
-
-
 # Demo: Plain React
 
 
@@ -16,10 +13,14 @@ TypeScript split view
 - Alt + Ctrl + Right: Split
 - Alt + Shift + 1: Toggle layout (vertical / horizontal)
 
+- typescript.tsx
+- app.tsx
 
-
-(webpack)
+# Demo: Webpack
 
 
 # Demo: Webpack hot loading
 
+
+
+# Demo: Visual Studio

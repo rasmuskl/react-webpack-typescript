@@ -3,9 +3,6 @@
 
 # Outline
 
-Templafy's Story
-
-- Transition from Knockout.js + Require.js
 
 Pros and cons
 
@@ -18,21 +15,27 @@ React
 Demo ideas: http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/
 
 - Elements
-- Rendering process (Reconcilliation)
 - Components
+- JSX
 - Props
 - State
-- JSX
+- Rendering process (Reconcilliation)
 - Component lifecycle
 
 TypeScript
 
+- Templafy tech session: https://paper.dropbox.com/doc/TypeScript-Tech-Session-fT7iwBAEBII84pZHRj3MM
+
 - Why? 
     - Visual Studio support for TSX, JSX didn't work properly. (Workarounds exist now for VS2015 and it should work in VS2017 though)
     - Types
+    - Incremental typing (types vs any)
 
 - Pains
     - Typings
+        - Up to date
+        - TSD -> Typings -> NPM @types
+        - Visual Studio caching        
 
 - TSX
 - Types
@@ -40,20 +43,22 @@ TypeScript
 
 Webpack
 
+- Templafy tech session: https://paper.dropbox.com/doc/Webpack-Tech-Session-S6pPxhZJRAzNja9UebxE9
+
 - Alternative to System.Web.Optimization (https://www.nuget.org/packages/microsoft.aspnet.web.optimization)
 
 - Plain
 - Loaders
-- Plugins
+- (Plugins)
 - Hot reloading
 
 Integration with ASP.NET
 
-- Task Runner in VS
+- Task Runner in Visual Studio
     - Development setup
     - Production setup
-- Serving index.html using write-file-webpack-plugin
 
+- Serving index.html using MVC write-file-webpack-plugin
 
 Templafy Extras
 

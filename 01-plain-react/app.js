@@ -1,7 +1,20 @@
-var element = document.getElementById('app');
+// app1: Basic HTML
 
-function MyComponent(props) {
-    return React.createElement('div', {}, 'My name is: ' + props.name)
+var app1 = React.createElement('div', {}, 'app1');
+
+ReactDOM.render(app1, document.getElementById('app1'));
+
+// app2: Shorthand
+
+var h = React.createElement;
+var app2 = h('div', {}, 'app2');
+
+ReactDOM.render(app2, document.getElementById('app2'));
+
+// app3: Components
+
+function Component1() {
+    return React.createElement('div', {}, 'component1')
 }
 
 var TestClass = React.createClass({
@@ -10,11 +23,9 @@ var TestClass = React.createClass({
     }
 });
 
-var root = React.createElement('div', {}, 
-    React.createElement('div', {}, 
-        [React.createElement('h1', {}, 'hello cnug'), React.createElement(TestClass, { name: 'Rasmus' })]));
+var app3 = 
+h('div', {}, 
+    h('h1', {}, 'hello cnug'), 
+    h(TestClass, { name: 'Rasmus' }));
 
-var h = React.createElement;
-var root2 = h('div', {}, h('div', {}, 'test'));
-
-ReactDOM.render(root, element);
+ReactDOM.render(app3, document.getElementById('app3'));
