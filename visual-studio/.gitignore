@@ -1,0 +1,13 @@
+.vs
+bin
+obj
+node_modules
+dist
+*.user
+packages
+npm-debug.log
+
+AppData
+
+*.js
+*.map
