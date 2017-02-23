@@ -1,11 +1,12 @@
-import * as React from 'react';
+﻿import * as React from 'react';
+import {Counter} from './Counter';
 
-export default class Layout extends React.Component<any, any> {
-  render() {
-    return (
-      <div>
-        {this.props.children}
-      </div>
-    );
-  }
+export class Layout extends React.Component<any, any> {
+    render() {
+        return (
+            <div>
+                {this.props.children}
+            </div>
+        );
+    }
 }

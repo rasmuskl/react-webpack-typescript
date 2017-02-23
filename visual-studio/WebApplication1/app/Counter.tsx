@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export default class Counter extends React.Component<any, any> {
+export class Counter extends React.Component<any, any> {
   interval: any;
 
   constructor(props) {
@@ -24,7 +24,7 @@ export default class Counter extends React.Component<any, any> {
 
   render() {
     return (
-      <h2>Counter: {this.state.counter}</h2>
+      <div>Counter: {this.state.counter}</div>
    );
   }
 }

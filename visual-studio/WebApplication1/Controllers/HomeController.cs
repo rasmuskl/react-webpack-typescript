@@ -6,7 +6,7 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Index()
         {
-            return File("~/app/index.html", "text/html");
+            return File("~/dist/app.html", "text/html");
         }
     }
 }

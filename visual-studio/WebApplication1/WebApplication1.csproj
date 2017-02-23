@@ -138,7 +138,7 @@
     <TypeScriptCompile Include="app\Counter.tsx" />
     <TypeScriptCompile Include="app\index.tsx" />
     <TypeScriptCompile Include="app\Layout.tsx" />
-    <TypeScriptCompile Include="app\types.d.ts" />
+    <TypeScriptCompile Include="app\Simple.tsx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
