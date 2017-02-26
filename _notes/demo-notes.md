@@ -18,9 +18,20 @@ TypeScript split view
 
 # Demo: Webpack
 
+Plain JS?
+CSS? LESS?
+TypeScript loader
+Plugins?
+
 
 # Demo: Webpack hot loading
 
 
 
 # Demo: Visual Studio
+
+Server communication (jQuery for now)
+Routing?
+Hot reloading
+Task Runner Explorer
+TypeScript generator

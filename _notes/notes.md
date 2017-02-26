@@ -10,6 +10,8 @@ Pros and cons
 - Ecosystem: Version speed
 - Templafy node_modules: 12000 files, 80mb
 
+How it feels to learn JavaScript in 2016: https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.k9u4vn8o4
+
 React
 
 Demo ideas: http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/
@@ -21,6 +23,8 @@ Demo ideas: http://tutorialzine.com/2014/07/5-practical-examples-for-learning-fa
 - State
 - Rendering process (Reconcilliation)
 - Component lifecycle
+
+Component communication: http://andrewhfarmer.com/component-communication/
 
 TypeScript
 

@@ -1,0 +1,12 @@
+Mount 
+
+[constructor]->[componentWillMount]
+[componentWillMount]->[render]
+[render]->[componentDidMount]
+
+Update
+
+[componentWillReceiveProps]->[shouldComponentUpdate]
+[shouldComponentUpdate]->[componentWillUpdate]
+[componentWillUpdate]->[render]
+[render]->[componentDidUpdate]
