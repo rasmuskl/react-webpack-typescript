@@ -1,6 +1,3 @@
-# Agenda
-
-
 # Outline
 
 
@@ -12,7 +9,7 @@ Pros and cons
 
 How it feels to learn JavaScript in 2016: https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.k9u4vn8o4
 
-React
+# React
 
 Demo ideas: http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/
 
@@ -26,7 +23,7 @@ Demo ideas: http://tutorialzine.com/2014/07/5-practical-examples-for-learning-fa
 
 Component communication: http://andrewhfarmer.com/component-communication/
 
-TypeScript
+# TypeScript
 
 - Templafy tech session: https://paper.dropbox.com/doc/TypeScript-Tech-Session-fT7iwBAEBII84pZHRj3MM
 
@@ -45,7 +42,7 @@ TypeScript
 - Types
 
 
-Webpack
+# Webpack
 
 - Templafy tech session: https://paper.dropbox.com/doc/Webpack-Tech-Session-S6pPxhZJRAzNja9UebxE9
 
