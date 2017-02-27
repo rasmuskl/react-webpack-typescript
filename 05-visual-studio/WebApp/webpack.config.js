@@ -22,6 +22,7 @@ let config = {
         sourceMapFilename: "[file].map",
         publicPath: "/dist/"
     },
+    devtool: "source-map",
     resolve: {
         extensions: ["", ".ts", ".tsx", ".js"]
     },
@@ -51,7 +52,7 @@ if (isHotMode) {
 }
 
 if (isDevelopment) {
-    config.module.loaders.push({ test: /\.css/, loaders: ["style", "css" ] });
+    config.module.loaders.push({ test: /\.css$/, loaders: ["style", "css" ] });
     config.module.loaders.push({ test: /\.less$/, loaders: ["style", "css", "less"] });
     config.module.loaders.push({ test: /\.(png|woff|woff2|eot|ttf|svg|gif)(\?.+)?(#.+)?$/, loaders: ["url-loader?limit=100000"] });
 
@@ -66,7 +67,7 @@ if (isDevelopment) {
 if (isProduction) {
     config.output.filename = "[name].[chunkhash].js";
 
-    config.module.loaders.push({ test: /\.css/, loader: ExtractTextPlugin.extract("style", ["css"]) });
+    config.module.loaders.push({ test: /\.css$/, loader: ExtractTextPlugin.extract("style", ["css"]) });
     config.module.loaders.push({ test: /\.less$/, loader: ExtractTextPlugin.extract("style", ["css", "less"]) });
 
     config.plugins.push(new ExtractTextPlugin("[name].[contenthash].css", { allChunks: true }));

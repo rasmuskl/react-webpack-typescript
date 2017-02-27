@@ -16,7 +16,7 @@ export class Clicker extends React.Component<void, { counter: number }> {
 
     render() {
         return (
-            <div onClick={this.increment}>Clicker: {this.state.counter}</div>
+            <div onClick={this.increment.bind(this)}>Clicker: {this.state.counter}</div>
         );
     }
 }
