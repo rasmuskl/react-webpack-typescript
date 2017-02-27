@@ -110,7 +110,7 @@
     <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\ApiController.cs" />
+    <Compile Include="Controllers\TodoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -127,13 +127,14 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app\Api.ts" />
+    <TypeScriptCompile Include="app\api\Api.ts" />
+    <TypeScriptCompile Include="app\api\contracts.d.ts" />
     <TypeScriptCompile Include="app\App.tsx" />
     <TypeScriptCompile Include="app\Clicker.tsx" />
     <TypeScriptCompile Include="app\Counter.tsx" />
     <TypeScriptCompile Include="app\index.tsx" />
-    <TypeScriptCompile Include="app\Layout.tsx" />
-    <TypeScriptCompile Include="app\Simple.tsx" />
+    <TypeScriptCompile Include="app\TodoList.tsx" />
+    <TypeScriptCompile Include="app\TodoTextBox.tsx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

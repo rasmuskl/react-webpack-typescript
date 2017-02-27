@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Net.Http.Headers;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace WebApplication1
 {
@@ -20,9 +23,9 @@ namespace WebApplication1
             RouteCollection routes = RouteTable.Routes;
 
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new {controller = "Home", action = "Index", id = UrlParameter.Optional}
+                "Default",
+                "{controller}/{action}/{id}",
+                new {controller = "Home", action = "Index", id = UrlParameter.Optional}
             );
         }
 
@@ -30,10 +33,18 @@ namespace WebApplication1
         {
             config.MapHttpAttributeRoutes();
 
+            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
+
+            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings = new JsonSerializerSettings
+            {
+                Formatting = Formatting.Indented,
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
+            };
+
             config.Routes.MapHttpRoute(
-                name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
+                "DefaultApi",
+                "api/{controller}/{action}/{id}",
+                new {action = RouteParameter.Optional, id = RouteParameter.Optional}
             );
         }
     }
