@@ -1,19 +1,21 @@
-var adder = require('./file2');
+require('./styles.css');
 
-console.log('App loaded!');
+function addMessage(text) {
+    var div = document.createElement('div');
+    div.innerText = text;
+    document.body.appendChild(div);
+}
+
+addMessage('App loaded.');
+
+var dependencyText = require('./dependency');
+addMessage('dependency: ' + dependencyText);
 
 if (module.hot) {
-    console.log('HMR is enabled.');
+    module.hot.accept('./dependency', function() {
+        console.log('reloading: dependency.js');
 
-    module.hot.accept();
-
-    module.hot.accept('./file2', function() {
-        console.log('file2.js changed');
-        var adder = require('./file2');
-        adder();
-    });
-
-    module.hot.status(function() {
-        console.log('status', arguments);
+        var newDependencyText = require('./dependency');
+        addMessage('dependency: ' + newDependencyText);
     });
 }

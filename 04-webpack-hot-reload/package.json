@@ -1,6 +1,14 @@
 {
-    "name": "hot-demo",
+    "name": "04-webpack-hot-reload",
     "scripts": {
-        "hot": "webpack-dev-server app.js --inline --hot"
+        "demo": "start http://localhost:9090 && webpack-dev-server app.js --port 9090 --inline --hot"
+    },
+    "devDependencies": {
+        "webpack": "1.14.0",
+
+        "webpack-dev-server": "1.16.2",
+
+        "css-loader": "0.26.2",
+        "style-loader": "0.13.2"
     }
 }

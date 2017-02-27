@@ -1,5 +1,5 @@
 {
-  "name": "typescript-react",
+  "name": "02-typescript-react",
   "scripts": {
     "demo": "start index.html && tsc --watch"
   },

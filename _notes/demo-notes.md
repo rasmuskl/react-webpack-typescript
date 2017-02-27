@@ -18,9 +18,11 @@ TypeScript split view
 
 # Demo: Webpack
 
-Plain JS?
-CSS? LESS?
-TypeScript loader
+- Plain JS
+- TypeScript
+- CSS
+- LESS
+
 Plugins?
 
 
@@ -35,3 +37,15 @@ Routing?
 Hot reloading
 Task Runner Explorer
 TypeScript generator
+
+Integration with ASP.NET
+
+- Task Runner in Visual Studio
+    - Development setup
+    - Production setup
+
+- Serving index.html using MVC write-file-webpack-plugin
+
+Templafy Extras
+
+- TypeScript generator

@@ -1,6 +1,5 @@
 # Outline
 
-
 Pros and cons
 
 - TypeScript: Typings
@@ -52,19 +51,6 @@ Component communication: http://andrewhfarmer.com/component-communication/
 - Loaders
 - (Plugins)
 - Hot reloading
-
-Integration with ASP.NET
-
-- Task Runner in Visual Studio
-    - Development setup
-    - Production setup
-
-- Serving index.html using MVC write-file-webpack-plugin
-
-Templafy Extras
-
-- TypeScript generator
-
 
 
 # Links

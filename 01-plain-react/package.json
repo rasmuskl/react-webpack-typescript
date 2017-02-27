@@ -1,5 +1,5 @@
 {
-  "name": "plain-react",
+  "name": "01-plain-react",
   "scripts": {
     "demo": "start index.html"
   },
