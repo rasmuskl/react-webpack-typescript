@@ -1,5 +1,4 @@
-require('./test.css');
-require('./test.less');
+require('./styles.css');
 
 var lib = require('./lib');
 

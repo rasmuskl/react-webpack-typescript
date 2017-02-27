@@ -1,4 +1,11 @@
 
+# Shortcuts
+
+Windows 10
+- Zoom In: Win + [+]
+- Zoom Out: Win + [-]
+
+
 # Demo: Plain React
 
 
@@ -20,31 +27,29 @@ TypeScript split view
 
 - Plain JS
 - TypeScript
-- CSS
+- CSS (styles.css)
 - LESS
+- Plugins: webpack.optimize.UglifyJsPlugin
 
 Plugins?
 
+# Demo: Webpack hot reload
 
-# Demo: Webpack hot loading
-
-
+- webpack-dev-server
+- app.js + dependency.js
+- CSS
 
 # Demo: Visual Studio
+
+Task Runner Explorer
+- Development setup
+- Production setup
+
+No Razor: Serving index.html using MVC write-file-webpack-plugin
 
 Server communication (jQuery for now)
 Routing?
 Hot reloading
-Task Runner Explorer
-TypeScript generator
-
-Integration with ASP.NET
-
-- Task Runner in Visual Studio
-    - Development setup
-    - Production setup
-
-- Serving index.html using MVC write-file-webpack-plugin
 
 Templafy Extras
 

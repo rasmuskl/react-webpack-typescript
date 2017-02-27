@@ -1,7 +1,8 @@
+var webpack = require('webpack');
 
 module.exports = {
     entry: {
-        bundle: './app.ts'
+        bundle: './app.js'
     },
     output: {
         path: "./out/",
@@ -13,5 +14,8 @@ module.exports = {
             { test: /\.css/, loaders: ['style-loader', 'css-loader']},
             { test: /\.less/, loaders: ['style-loader', 'css-loader', 'less-loader']},
         ]
-    }
+    },
+    plugins: [
+        //new webpack.optimize.UglifyJsPlugin()
+    ]
 };
