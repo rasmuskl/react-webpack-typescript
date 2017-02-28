@@ -18,7 +18,18 @@ Life without JSX is a bit tedious, we have 2 choices:
 # Demo: TypeScript React
 
 - typescript.tsx
-- app.tsx
+
+app.tsx
+
+- Elements
+- Components
+- JSX
+- Props
+- State
+- Rendering process (Reconcilliation)
+- Component lifecycle
+
+
 
 # Demo: Webpack
 

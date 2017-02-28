@@ -10,18 +10,6 @@ How it feels to learn JavaScript in 2016: https://hackernoon.com/how-it-feels-to
 
 # React
 
-Demo ideas: http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/
-
-- Elements
-- Components
-- JSX
-- Props
-- State
-- Rendering process (Reconcilliation)
-- Component lifecycle
-
-Component communication: http://andrewhfarmer.com/component-communication/
-
 # TypeScript
 
 - Templafy tech session: https://paper.dropbox.com/doc/TypeScript-Tech-Session-fT7iwBAEBII84pZHRj3MM
@@ -47,12 +35,8 @@ Component communication: http://andrewhfarmer.com/component-communication/
 
 - Alternative to System.Web.Optimization (https://www.nuget.org/packages/microsoft.aspnet.web.optimization)
 
-- Plain
-- Loaders
-- (Plugins)
-- Hot reloading
-
 
 # Links
 
 - http://jamesknelson.com/learn-raw-react-no-jsx-flux-es6-webpack/
+- React Component communication: http://andrewhfarmer.com/component-communication/
