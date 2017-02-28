@@ -25,16 +25,11 @@ How it feels to learn JavaScript in 2016: https://hackernoon.com/how-it-feels-to
         - TSD -> Typings -> NPM @types
         - Visual Studio caching        
 
-- TSX
-- Types
-
 
 # Webpack
 
 - Templafy tech session: https://paper.dropbox.com/doc/Webpack-Tech-Session-S6pPxhZJRAzNja9UebxE9
-
 - Alternative to System.Web.Optimization (https://www.nuget.org/packages/microsoft.aspnet.web.optimization)
-
 
 # Links
 
