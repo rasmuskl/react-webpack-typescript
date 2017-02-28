@@ -29,8 +29,6 @@ app.tsx
 - Rendering process (Reconcilliation)
 - Component lifecycle
 
-
-
 # Demo: Webpack
 
 - Plain JS

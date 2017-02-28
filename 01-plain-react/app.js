@@ -1,5 +1,10 @@
 // app1: Basic HTML
 
+// <div>
+//   <h1>app1</h1>
+//   <p>Hello CNUG</p>
+// </div>
+
 var app1 = null;
 
 ReactDOM.render(app1, document.getElementById('app1'));
