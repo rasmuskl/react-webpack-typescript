@@ -2,7 +2,6 @@
 
 let webpack = require("webpack");
 let path = require("path");
-let fs = require("fs");
 let process = require("process");
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var HtmlWebpackPlugin = require("html-webpack-plugin");

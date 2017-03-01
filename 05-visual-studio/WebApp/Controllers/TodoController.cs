@@ -10,10 +10,11 @@ namespace WebApplication1.Controllers
 
         private static readonly List<Todo> Todos = new List<Todo>
         {
-            new Todo {Id = _nextId++, Title = "Prepare CNUG talk", Completed = true},
+            new Todo {Id = _nextId++, Title = "Prepare talk", Completed = true},
             new Todo {Id = _nextId++, Title = "Practice", Completed = false},
         };
 
+        [HttpGet]
         public List<Todo> GetTodos()
         {
             return Todos;

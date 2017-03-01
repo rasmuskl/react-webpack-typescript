@@ -5,17 +5,13 @@ module.exports = {
         bundle: './app.js'
     },
     output: {
-        path: "./out/",
-        filename: "[name].js"
+        path: "./out/"
+    },
+    resolve: {
+        extentions: ['', '.js']
     },
     module: {
-        loaders: [
-            { test: /\.ts/, loaders: ['ts-loader']},
-            { test: /\.css/, loaders: ['style-loader', 'css-loader']},
-            { test: /\.less/, loaders: ['style-loader', 'css-loader', 'less-loader']},
-        ]
+        loaders: []
     },
-    plugins: [
-        //new webpack.optimize.UglifyJsPlugin()
-    ]
+    plugins: []
 };

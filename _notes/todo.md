@@ -8,7 +8,8 @@
 [ ] Slide: Advice
 [x] Demo: Plain React
 [ ] Demo: TypeScript React
-[ ] Demo: Webpack
+[x] Demo: Webpack
 [ ] Demo: Webpack Hot Reload
+[x] Slide: Webpack Hot Module Reload
 [ ] Demo: Visual Studio
 

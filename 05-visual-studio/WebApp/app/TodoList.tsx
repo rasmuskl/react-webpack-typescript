@@ -51,11 +51,13 @@ export class TodoList extends React.Component<void, { todos: TodoItem[] }> {
         return (
             <div>
                 <TodoTextBox onSubmit={title => this.addTodo(title)} />
+
                 {this.state.todos.map(todo =>
                     <div key={todo.id} className="todo-item" onClick={() => this.checkboxChanged(todo.id, !todo.completed)}>
                         <input type="checkbox" checked={todo.completed} readOnly={true} />
                         <span style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}>{todo.title}</span>
                     </div>)}
+
                 <div className="toolbar">
                     <button onClick={evt => this.clearCompleted(evt)}>Clear completed</button>
                 </div>
