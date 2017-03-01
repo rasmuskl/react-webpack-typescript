@@ -1,7 +1,8 @@
 // Simple Types
 
-// Interfaces
+// Interfaces (Person)
 
-// Classes
+// Classes (Greeter)
 
 // JSX
+

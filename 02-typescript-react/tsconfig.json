@@ -3,5 +3,9 @@
         "target": "es5",
         "jsx": "react",
         "outDir": "out"
-    }
+    },
+    "files": [
+        "./app.tsx",
+        "./typescript.tsx"
+    ]
 }
