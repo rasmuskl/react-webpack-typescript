@@ -5,11 +5,12 @@
 [x] Slide: Me
 [x] Install Templafy
 [x] Slide: Templafy
-[ ] Slide: Advice
+[x] Slide: Thank you
+[x] Slide: Visual Studio
 [x] Demo: Plain React
 [ ] Demo: TypeScript React
 [x] Demo: Webpack
-[ ] Demo: Webpack Hot Reload
+[x] Demo: Webpack Hot Reload
 [x] Slide: Webpack Hot Module Reload
 [ ] Demo: Visual Studio
 
