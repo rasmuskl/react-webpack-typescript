@@ -5,10 +5,11 @@ module.exports = {
         bundle: './app.js'
     },
     output: {
-        path: "./out/"
+        path: "./out/",
+        filename: "[name].js"
     },
     resolve: {
-        extentions: ['', '.js']
+        extensions: ['', '.js']
     },
     module: {
         loaders: []
