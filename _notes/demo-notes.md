@@ -19,6 +19,11 @@ Life without JSX is a bit tedious, we have 2 choices:
 
 - typescript.tsx
 
+- Simple types
+- Interfaces (Person)
+- Classes (Greeter)
+- JSX
+
 app.tsx
 
 - Elements
@@ -57,4 +62,7 @@ Hot reloading
 
 Templafy Extras
 
-- TypeScript generator
+TypeScript generator
+- UserProfileDto.IsOwner
+- UserProfilesSearchManager.tsx
+- UserProfileRow.tsx
