@@ -1,15 +1,17 @@
 "use strict";
 
-let webpack = require("webpack");
-let path = require("path");
-let process = require("process");
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
-var HtmlWebpackPlugin = require("html-webpack-plugin");
-var WriteFilePlugin = require("write-file-webpack-plugin");
+const webpack = require("webpack");
+const path = require("path");
+const process = require("process");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const WriteFilePlugin = require("write-file-webpack-plugin");
 
-let isProduction = process.env.NODE_ENV === "production";
-let isDevelopment = !isProduction;
-let isHotMode = process.argv.find((a) => { return a.indexOf("webpack-dev-server") >= 0; }) && process.argv.find((a) => { return a.indexOf("--hot") >= 0; });
+const isProduction = process.env.NODE_ENV === "production";
+const isDevelopment = !isProduction;
+const isHotMode = process.argv.find((a) => { return a.indexOf("webpack-dev-server") >= 0; }) && process.argv.find((a) => { return a.indexOf("--hot") >= 0; });
+
+const hotPort = 9090;
 
 let config = {
     entry: [
@@ -45,8 +47,8 @@ let config = {
 };
 
 if (isHotMode) {
-    config.entry.unshift("webpack-dev-server/client?http://localhost:8080", "webpack/hot/dev-server");
-    config.output.publicPath = "http://localhost:8080/dist/";
+    config.entry.unshift("webpack-dev-server/client?http://localhost:" + hotPort, "webpack/hot/dev-server");
+    config.output.publicPath = "http://localhost:" + hotPort + "/dist/";
     config.module.loaders.find((l) => { return l.test.toString() === /\.tsx?$/.toString() }).loaders.unshift("react-hot-loader");
 }
 
@@ -56,8 +58,9 @@ if (isDevelopment) {
     config.module.loaders.push({ test: /\.(png|woff|woff2|eot|ttf|svg|gif)(\?.+)?(#.+)?$/, loaders: ["url-loader?limit=100000"] });
 
     config.devServer = {
-        publicPath: "http://localhost:8080/dist/",
-        outputPath: path.resolve("./dist")
+        publicPath: "http://localhost:" + hotPort + "/dist/",
+        outputPath: path.resolve("./dist"),
+        port: hotPort
     };
 
     config.plugins.push(new WriteFilePlugin({ test: /\.html/ }));

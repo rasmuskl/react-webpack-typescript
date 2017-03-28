@@ -35,7 +35,7 @@ export class TodoList extends React.Component<void, { todos: TodoItem[] }> {
                 }
             }
 
-            this.setState({todos})
+            this.setState({ todos })
         });
     }
 
