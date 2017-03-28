@@ -1,15 +1,15 @@
-var webpack = require('webpack');
+const webpack = require('webpack');
 
 module.exports = {
     entry: {
-        bundle: './app.js'
+        bundle: './app.ts'
     },
     output: {
         path: "./out/",
         filename: "[name].js"
     },
     resolve: {
-        extensions: ['', '.js']
+        extensions: ['', '.js', '.ts']
     },
     module: {
         loaders: []
