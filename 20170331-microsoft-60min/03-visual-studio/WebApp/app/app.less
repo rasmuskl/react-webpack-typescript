@@ -1,0 +1,33 @@
+﻿body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background:#0079FF;
+}
+
+#app > div > div {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.todo-item {
+    cursor: default;
+    padding: 8px 0;
+    display: flex;
+    user-select: none;
+
+    input {
+        margin-right: 10px;
+    }
+
+    &:hover {
+        background-color: lightblue;
+    }
+}
+
+.toolbar {
+    margin-top: 10px;
+}

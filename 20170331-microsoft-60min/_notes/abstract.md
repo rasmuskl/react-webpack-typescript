@@ -1,9 +1,5 @@
 # ASP.NET without Razor: React, Webpack and TypeScript
 
-Demos and slides from the presentation.
-
-# Abstract
-
 React has been gaining popularity for single page apps but how does it fit into ASP.NET web apps? How can we use it in combination with Visual Studio without turning our regular workflow upside down?
 
 At Templafy we recently migrated our existing Knockout.js frontend to React. As part of this journey, we had to decode all the node.js guides on using React and convert them into a working solution. In the end we settled on the combination of React, Webpack and TypeScript. This talk is a condensed version of our experiences.
@@ -13,8 +9,3 @@ In the session we explore what React and Webpack are, how they work and how they
 # Bio
 
 Rasmus Kromann-Larsen is a Templafy senior developer usually focusing on the Microsoft platform. During his many years of programming, he has worked with a wide range of technology spanning desktop, mobile and web. He is active in the Danish community and a former core group member of CNUG and ANUG.
-
-# Versions
-
-* `20170301-cnug-120min`: 2 hour version given at CNUG
-* `20170331-microsoft-60min`: 1 hour version given at Microsoft

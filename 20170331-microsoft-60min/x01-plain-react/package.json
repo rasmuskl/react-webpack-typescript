@@ -1,0 +1,10 @@
+{
+  "name": "01-plain-react",
+  "scripts": {
+    "demo": "start index.html"
+  },
+  "dependencies": {
+    "react": "15.4.2",
+    "react-dom": "15.4.2"
+  }
+}
