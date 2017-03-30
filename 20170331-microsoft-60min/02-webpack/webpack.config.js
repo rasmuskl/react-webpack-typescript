@@ -12,7 +12,10 @@ module.exports = {
         extensions: ['', '.js', '.ts']
     },
     module: {
-        loaders: []
+        loaders: [
+            { test: /\.tsx?/, loaders: ['ts'] },
+            { test: /\.css/, loaders: ['style', 'css'] }
+        ]
     },
     plugins: []
 };

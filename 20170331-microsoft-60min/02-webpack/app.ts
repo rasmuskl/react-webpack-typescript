@@ -1,4 +1,5 @@
 import greeter from './greeter';
+import './styles.css';
 
 function addMessage(message: string) {
     let div = document.createElement('div');
