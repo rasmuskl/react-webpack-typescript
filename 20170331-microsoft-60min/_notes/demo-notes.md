@@ -12,16 +12,16 @@ TypeScript split view
 
 # Demo: TypeScript + React
 
-Life without JSX is a bit tedious, we have 2 choices:
-- Babel / EcmaScript 6
-- TypeScript
-
 - typescript.tsx
 
 - Simple types
 - Interfaces (Person)
 - Classes (Greeter)
 - JSX
+
+Life without JSX is a bit tedious, we have 2 choices:
+- Babel / EcmaScript 6
+- TypeScript
 
 app.tsx
 
@@ -55,6 +55,7 @@ Hot reloading
 Templafy Extras
 
 TypeScript generator
-- UserProfileDto.IsOwner
+- UserProfileController.SearchUserProfiles
 - UserProfilesSearchManager.tsx
 - UserProfileRow.tsx
+- UserProfileDto.IsOwner
