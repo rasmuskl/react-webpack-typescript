@@ -13,7 +13,7 @@ export class TodoList extends React.Component<void, { todos: TodoItem[] }> {
 
     componentDidMount() {
         Api.getTodos().then(todos => {
-            this.setState({ todos })
+            this.setState({ todos });
         });
     }
 
@@ -35,7 +35,7 @@ export class TodoList extends React.Component<void, { todos: TodoItem[] }> {
                 }
             }
 
-            this.setState({ todos })
+            this.setState({ todos });
         });
     }
 
@@ -55,7 +55,9 @@ export class TodoList extends React.Component<void, { todos: TodoItem[] }> {
                 {this.state.todos.map(todo =>
                     <div key={todo.id} className="todo-item" onClick={() => this.checkboxChanged(todo.id, !todo.completed)}>
                         <input type="checkbox" checked={todo.completed} readOnly={true} />
-                        <span style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}>{todo.title}</span>
+                        <span style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}>
+                            {todo.title}
+                        </span>
                     </div>)}
 
                 <div className="toolbar">

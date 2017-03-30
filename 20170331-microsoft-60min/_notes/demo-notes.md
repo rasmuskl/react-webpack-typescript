@@ -6,6 +6,7 @@ Windows 10
 - Zoom Out: Win + [-]
 
 TypeScript split view
+- Ctrl + ½: Split
 - Alt + Ctrl + Right: Split
 - Alt + Shift + 1: Toggle layout (vertical / horizontal)
 
