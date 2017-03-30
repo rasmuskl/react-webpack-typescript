@@ -10,6 +10,12 @@ TypeScript split view
 - Alt + Ctrl + Right: Split
 - Alt + Shift + 1: Toggle layout (vertical / horizontal)
 
+VS Code disable preview and open editors:
+```
+    "workbench.editor.enablePreview": false,
+    "explorer.openEditors.visible": 0,
+```
+
 # Demo: TypeScript + React
 
 - typescript.tsx
