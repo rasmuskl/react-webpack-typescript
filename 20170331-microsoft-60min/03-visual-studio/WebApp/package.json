@@ -28,4 +28,5 @@
     "webpack-dev-server": "1.16.2",
     "write-file-webpack-plugin": "3.4.2"
   }
+, "-vs-binding":{"ProjectOpened":["hot"]}
 }
