@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react",
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "noEmit": true
+  },
+  "include": [
+    "app/**/*"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "scripts": {
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --hot --color"
+  },
+  "dependencies": {
+    "jquery": "3.1.1",
+    "react": "15.2.1",
+    "react-dom": "15.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "15.0.12",
+    "@types/react-dom": "0.14.23",
+    "@types/jquery": "2.0.40",
+
+    "cross-env": "3.1.4",
+    "css-loader": "0.26.1",
+    "extract-text-webpack-plugin": "1.0.1",
+    "html-webpack-plugin": "2.22.0",
+    "less": "2.7.1",
+    "less-loader": "2.2.3",
+    "react-hot-loader": "1.3.1",
+    "style-loader": "0.13.1",
+    "ts-loader": "1.2.1",
+    "typescript": "2.1.4",
+    "webpack": "1.14.0",
+    "webpack-dev-server": "1.16.2",
+    "write-file-webpack-plugin": "3.4.2"
+  }
+, "-vs-binding":{"ProjectOpened":["hot"]}
+}
