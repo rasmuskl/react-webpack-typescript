@@ -5,6 +5,10 @@ Windows 10
 - Zoom In: Win + [+]
 - Zoom Out: Win + [-]
 
+VS Code
+- Ctrl + B: Hide sidebar
+- Ctrl + æ: Toggle shell
+
 TypeScript split view
 - Ctrl + ½: Split
 - Alt + Ctrl + Right: Split
