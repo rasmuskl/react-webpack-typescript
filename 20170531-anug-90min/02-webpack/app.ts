@@ -1,5 +1,5 @@
-import greeter from './greeter';
-import './styles.css';
+//import greeter from './greeter';
+//import './styles.css';
 
 function addMessage(message: string) {
     let div = document.createElement('div');
@@ -7,5 +7,5 @@ function addMessage(message: string) {
     document.body.appendChild(div);
 }
 
-addMessage('Hello CNUG');
-addMessage(greeter('CNUG'));
+addMessage('Hello ANUG');
+//addMessage(greeter('ANUG'));
