@@ -60,7 +60,10 @@ if (isDevelopment) {
     config.devServer = {
         publicPath: "http://localhost:" + hotPort + "/dist/",
         outputPath: path.resolve("./dist"),
-        port: hotPort
+        port: hotPort,
+        headers: {
+            'Access-Control-Allow-Origin': '*'
+        }
     };
 
     config.plugins.push(new WriteFilePlugin({ test: /\.html/ }));
